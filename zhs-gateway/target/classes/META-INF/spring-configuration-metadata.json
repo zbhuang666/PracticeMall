@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "zhs.gateway",
+      "type": "com.zhs.zhsmall.properties.NotAuthUrlProperties",
+      "sourceType": "com.zhs.zhsmall.properties.NotAuthUrlProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "zhs.gateway.should-skip-urls",
+      "type": "java.util.LinkedHashSet<java.lang.String>",
+      "sourceType": "com.zhs.zhsmall.properties.NotAuthUrlProperties"
+    }
+  ],
+  "hints": []
+}

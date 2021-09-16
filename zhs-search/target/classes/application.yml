@@ -1,0 +1,18 @@
+## student_es
+server:
+  port: 8085
+spring:
+  application:
+    name: zhs-search
+  data:
+    elasticsearch:
+      student:
+        cluster-name: zhs-elasticsearch
+        cluster-nodes: 192.168.9.170:9300
+es:
+  student:
+    rest:
+      uris: http://192.168.9.170:9200,http://192.168.9.170:9200,http://192.168.9.170:9200
+      connection-timeout: 3000
+      socket-timeout: 3000
+      connection-request-timeout: 3000

@@ -1,0 +1,8 @@
+com\zhs\common\exception\GateWayException.class
+com\zhs\common\api\CommonPage.class
+com\zhs\common\api\CommonResult.class
+com\zhs\common\api\ResultCode.class
+com\zhs\common\constant\RedisKeyPrefixConst.class
+com\zhs\common\exception\BusinessException.class
+com\zhs\common\api\TokenInfo.class
+com\zhs\common\api\IErrorCode.class

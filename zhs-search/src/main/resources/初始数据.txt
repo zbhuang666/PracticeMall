@@ -1,0 +1,389 @@
+{
+  "took": 4,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 17,
+      "relation": "eq"
+    },
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "product_db",
+        "_type": "_doc",
+        "_id": "1",
+        "_score": 1,
+        "_source": {
+          "id": "26",
+          "name": "小米 11 手机",
+          "keywords": "小米手机",
+          "subTitle": "AI智慧全面屏 6GB +64GB 亮黑色 全网通版 移动联通电信4G手机 双卡双待 双卡双待",
+          "price": "3999",
+          "promotionPrice": "2999",
+          "originalPrice": "5999",
+          "pic": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20180615/xiaomi.jpg",
+          "sale": 999,
+          "hasStock": true,
+          "salecount": 999,
+          "putawayDate": "20210401",
+          "brandId": 6,
+          "brandName": "小米",
+          "brandImg": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20190129/1e34aef2a409119018a4c6258e39ecfb_222_222.png",
+          "categoryId": 19,
+          "categoryName": "手机通讯",
+          "attrs": [
+            {
+              "attrId": 1,
+              "attrName": "cpu",
+              "attrValue": "2核"
+            },
+            {
+              "attrId": 2,
+              "attrName": "颜色",
+              "attrValue": "黑色"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "product_db",
+        "_type": "_doc",
+        "_id": "2",
+        "_score": 1,
+        "_source": {
+          "id": "27",
+          "name": "小米 10 手机",
+          "keywords": "小米手机",
+          "subTitle": "AI智慧全面屏 4GB +64GB 亮白色 全网通版 移动联通电信4G手机 双卡双待 双卡双待",
+          "price": "2999",
+          "promotionPrice": "1999",
+          "originalPrice": "3999",
+          "pic": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20180615/xiaomi.jpg",
+          "sale": 999,
+          "hasStock": false,
+          "salecount": 99,
+          "putawayDate": "20210402",
+          "brandId": 6,
+          "brandName": "小米",
+          "brandImg": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20190129/1e34aef2a409119018a4c6258e39ecfb_222_222.png",
+          "categoryId": 19,
+          "categoryName": "手机通讯",
+          "attrs": [
+            {
+              "attrId": 1,
+              "attrName": "cpu",
+              "attrValue": "4核"
+            },
+            {
+              "attrId": 2,
+              "attrName": "颜色",
+              "attrValue": "白色"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "product_db",
+        "_type": "_doc",
+        "_id": "3",
+        "_score": 1,
+        "_source": {
+          "id": "28",
+          "name": "小米 手机",
+          "keywords": "小米手机",
+          "subTitle": "AI智慧全面屏 4GB +64GB 亮蓝色 全网通版 移动联通电信4G手机 双卡双待 双卡双待",
+          "price": "2999",
+          "promotionPrice": "1999",
+          "originalPrice": "3999",
+          "pic": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20180615/xiaomi.jpg",
+          "sale": 999,
+          "hasStock": true,
+          "salecount": 199,
+          "putawayDate": "20210403",
+          "brandId": 6,
+          "brandName": "小米",
+          "brandImg": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20190129/1e34aef2a409119018a4c6258e39ecfb_222_222.png",
+          "categoryId": 19,
+          "categoryName": "手机通讯",
+          "attrs": [
+            {
+              "attrId": 1,
+              "attrName": "cpu",
+              "attrValue": "2核"
+            },
+            {
+              "attrId": 2,
+              "attrName": "颜色",
+              "attrValue": "蓝色"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "product_db",
+        "_type": "_doc",
+        "_id": "4",
+        "_score": 1,
+        "_source": {
+          "id": "29",
+          "name": "Apple iPhone 8 Plus 64GB 金色特别版 移动联通电信4G手机",
+          "keywords": "苹果手机",
+          "subTitle": "苹果手机 Apple产品年中狂欢节，好物尽享，美在智慧！速来 >> 勾选[保障服务][原厂保2年]，获得AppleCare+全方位服务计划，原厂延保售后无忧。",
+          "price": "5999",
+          "promotionPrice": "4999",
+          "originalPrice": "7999",
+          "pic": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20180615/5acc5248N6a5f81cd.jpg",
+          "sale": 999,
+          "hasStock": true,
+          "salecount": 1199,
+          "putawayDate": "20210404",
+          "brandId": 51,
+          "brandName": "苹果",
+          "brandImg": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20180607/timg.jpg",
+          "categoryId": 19,
+          "categoryName": "手机通讯",
+          "attrs": [
+            {
+              "attrId": 1,
+              "attrName": "cpu",
+              "attrValue": "4核"
+            },
+            {
+              "attrId": 2,
+              "attrName": "颜色",
+              "attrValue": "金色"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "product_db",
+        "_type": "_doc",
+        "_id": "5",
+        "_score": 1,
+        "_source": {
+          "id": "30",
+          "name": "HLA海澜之家简约动物印花短袖T恤",
+          "keywords": "海澜之家衣服",
+          "subTitle": "HLA海澜之家短袖T恤",
+          "price": "199",
+          "promotionPrice": "99",
+          "originalPrice": "299",
+          "pic": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20180615/5ad83a4fN6ff67ecd.jpg!cc_350x449.jpg",
+          "sale": 999,
+          "hasStock": true,
+          "salecount": 19,
+          "putawayDate": "20210405",
+          "brandId": 50,
+          "brandName": "海澜之家",
+          "brandImg": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20190129/99d3279f1029d32b929343b09d3c72de_222_222.jpg",
+          "categoryId": 8,
+          "categoryName": "T恤",
+          "attrs": [
+            {
+              "attrId": 3,
+              "attrName": "尺寸",
+              "attrValue": "M"
+            },
+            {
+              "attrId": 4,
+              "attrName": "颜色",
+              "attrValue": "黑色"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "product_db",
+        "_type": "_doc",
+        "_id": "6",
+        "_score": 1,
+        "_source": {
+          "id": "31",
+          "name": "HLA海澜之家蓝灰花纹圆领针织布短袖T恤",
+          "keywords": "海澜之家衣服",
+          "subTitle": "HLA海澜之家短袖T恤",
+          "price": "299",
+          "promotionPrice": "199",
+          "originalPrice": "299",
+          "pic": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20180615/5ac98b64N70acd82f.jpg!cc_350x449.jpg",
+          "sale": 999,
+          "hasStock": true,
+          "salecount": 399,
+          "putawayDate": "20210406",
+          "brandId": 50,
+          "brandName": "海澜之家",
+          "brandImg": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20190129/99d3279f1029d32b929343b09d3c72de_222_222.jpg",
+          "categoryId": 8,
+          "categoryName": "T恤",
+          "attrs": [
+            {
+              "attrId": 3,
+              "attrName": "尺寸",
+              "attrValue": "X"
+            },
+            {
+              "attrId": 4,
+              "attrName": "颜色",
+              "attrValue": "蓝灰"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "product_db",
+        "_type": "_doc",
+        "_id": "7",
+        "_score": 1,
+        "_source": {
+          "id": "32",
+          "name": "HLA海澜之家短袖T恤男基础款",
+          "keywords": "海澜之家衣服",
+          "subTitle": "HLA海澜之家短袖T恤",
+          "price": "269",
+          "promotionPrice": "169",
+          "originalPrice": "399",
+          "pic": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20180615/5a51eb88Na4797877.jpg",
+          "sale": 999,
+          "hasStock": true,
+          "salecount": 399,
+          "putawayDate": "20210407",
+          "brandId": 50,
+          "brandName": "海澜之家",
+          "brandImg": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20190129/99d3279f1029d32b929343b09d3c72de_222_222.jpg",
+          "categoryId": 8,
+          "categoryName": "T恤",
+          "attrs": [
+            {
+              "attrId": 3,
+              "attrName": "尺寸",
+              "attrValue": "L"
+            },
+            {
+              "attrId": 4,
+              "attrName": "颜色",
+              "attrValue": "蓝色"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "product_db",
+        "_type": "_doc",
+        "_id": "8",
+        "_score": 1,
+        "_source": {
+          "id": "33",
+          "name": "小米（MI）小米电视4A ",
+          "keywords": "小米电视机家用电器",
+          "subTitle": "小米（MI）小米电视4A 55英寸 L55M5AZ/L55M5AD 2GB+8GB HDR 4K超高清 人工智能网络液晶平板电视",
+          "price": "2269",
+          "promotionPrice": "2169",
+          "originalPrice": "2399",
+          "pic": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20180615/5b02804dN66004d73.jpg",
+          "sale": 999,
+          "hasStock": true,
+          "salecount": 132,
+          "putawayDate": "20210409",
+          "brandId": 6,
+          "brandName": "小米",
+          "brandImg": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20190129/1e34aef2a409119018a4c6258e39ecfb_222_222.png",
+          "categoryId": 35,
+          "categoryName": "手机数码",
+          "attrs": [
+            {
+              "attrId": 5,
+              "attrName": "屏幕尺寸",
+              "attrValue": "52"
+            },
+            {
+              "attrId": 6,
+              "attrName": "机身颜色",
+              "attrValue": "黑色"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "product_db",
+        "_type": "_doc",
+        "_id": "9",
+        "_score": 1,
+        "_source": {
+          "id": "34",
+          "name": "小米（MI）小米电视4A 65英寸",
+          "keywords": "小米电视机家用电器",
+          "subTitle": "小米（MI）小米电视4A 65英寸 L55M5AZ/L55M5AD 2GB+8GB HDR 4K超高清 人工智能网络液晶平板电视",
+          "price": "3269",
+          "promotionPrice": "3169",
+          "originalPrice": "3399",
+          "pic": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20180615/5b028530N51eee7d4.jpg",
+          "sale": 999,
+          "hasStock": true,
+          "salecount": 999,
+          "putawayDate": "20210410",
+          "brandId": 6,
+          "brandName": "小米",
+          "brandImg": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20190129/1e34aef2a409119018a4c6258e39ecfb_222_222.png",
+          "categoryId": 35,
+          "categoryName": "手机数码",
+          "attrs": [
+            {
+              "attrId": 5,
+              "attrName": "屏幕尺寸",
+              "attrValue": "65"
+            },
+            {
+              "attrId": 6,
+              "attrName": "机身颜色",
+              "attrValue": "金色"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "product_db",
+        "_type": "_doc",
+        "_id": "10",
+        "_score": 1,
+        "_source": {
+          "id": "35",
+          "name": "耐克NIKE 男子 休闲鞋 ROSHE RUN 运动鞋 511881010黑色41码",
+          "keywords": "耐克运动鞋 鞋子",
+          "subTitle": "耐克NIKE 男子 休闲鞋 ROSHE RUN 运动鞋 511881010黑色41码",
+          "price": "569",
+          "promotionPrice": "369",
+          "originalPrice": "899",
+          "pic": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20180615/5b235bb9Nf606460b.jpg",
+          "sale": 999,
+          "hasStock": true,
+          "salecount": 399,
+          "putawayDate": "20210411",
+          "brandId": 58,
+          "brandName": "NIKE",
+          "brandImg": "http://macrooss.osscnshenzhen.aliyuncs.com/mall/images/20180615/timg (51).jpg",
+          "categoryId": 29,
+          "categoryName": "男鞋",
+          "attrs": [
+            {
+              "attrId": 7,
+              "attrName": "尺码",
+              "attrValue": "42"
+            },
+            {
+              "attrId": 8,
+              "attrName": "颜色",
+              "attrValue": "黑色"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

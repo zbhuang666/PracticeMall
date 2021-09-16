@@ -1,0 +1,6 @@
+com\zhs\zhsmall\domain\MemberDetails.class
+com\zhs\zhsmall\config\WebSecurityConfig.class
+com\zhs\zhsmall\service\ZhsUserDetailService.class
+com\zhs\zhsmall\feign\UmsMemberFeignService.class
+com\zhs\zhsmall\ZhsMallApplication.class
+com\zhs\zhsmall\config\ZhsAuthorizationServerConfig.class

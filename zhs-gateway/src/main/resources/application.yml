@@ -1,0 +1,34 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: zhs-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      enabled: true
+      routes:
+        - id: zhs-member
+          uri: lb://zhs-member
+          predicates:
+            - Path=/member/**,/sso/**
+        - id: tulingmall-coupons
+          uri: lb://tulingmall-coupons
+          predicates:
+            - Path=/coupon/**
+        - id: zhs-auth
+          uri: lb://zhs-auth
+          predicates:
+            - Path=/oauth/**
+
+zhs:
+  gateway:
+    shouldSkipUrls:
+      - /oauth/**
+      - /sso/**
